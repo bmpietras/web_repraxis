@@ -1,0 +1,41 @@
+html  {
+  width:  100%;
+  height: 100%;
+}
+body  {
+  margin: auto;
+  height: 95%;
+  width:  95%;
+  max-width: 600px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content:  space-around;
+  align-items:  center;
+  flex-flow:  row wrap;
+}
+.flex_item {
+  font-family:  monospace;
+  font-size:  0.75em;
+  font-weight:  200;
+  text-align: center;
+  line-height:  2em;
+}
+.nav {
+  width: 30%;
+  margin: 50% 0 0 0;
+}
+.nav:hover  {
+  text-decoration:  underline;
+}
+.nav_contact  {
+  width:  50%;
+  position: relative;
+  border: 1px dotted #000;
+}
+.navdisabled  {
+  width: 30%;
+  margin: 50% 0 0 0;
+  text-decoration: line-through;
+}
