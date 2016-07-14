@@ -30,6 +30,7 @@ body  {
   text-decoration:  underline;
 }
 .nav_contact  {
+  font-weight: 100;
   width:  50%;
   position: relative;
   border: 1px dotted #000;
@@ -38,4 +39,12 @@ body  {
   width: 30%;
   margin: 50% 0 0 0;
   text-decoration: line-through;
+}
+a:link  {
+  font-weight: 600;
+  color: black;
+  text-decoration:  none;
+}
+a:hover {
+  text-decoration:  underline;
 }
