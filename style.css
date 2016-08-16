@@ -1,0 +1,65 @@
+html  {
+  width:  100%;
+  height: 100%;
+}
+body  {
+  margin: auto;
+  height: 95%;
+  width:  95%;
+}
+.container {
+  height: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content:  space-around;
+  align-items:  center;
+  flex-flow:  row wrap;
+  background-color: #eee;
+}
+#practice {
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content:  flex-start;
+  align-items:  flex-start;
+  flex-flow: column nowrap;
+  background-color: #eee;
+}
+.flex_item {
+  font-family:  monospace;
+  font-size:  0.75em;
+  font-weight:  200;
+  text-align: center;
+  line-height:  2em;
+}
+.nav {
+  width: 30%;
+  margin: 50% 0 0 0;
+}
+.nav_back {
+  margin: 5% 0 0 5%;
+}
+.nav:hover  {
+  text-decoration:  underline;
+}
+.nav_contact  {
+  font-weight: 100;
+  width:  50%;
+  position: relative;
+  border: 1px dotted #000;
+}
+.navdisabled  {
+  width: 30%;
+  margin: 50% 0 0 0;
+  text-decoration: line-through;
+}
+a:link  {
+  font-weight: 600;
+  color: black;
+  text-decoration:  none;
+}
+a:hover {
+  text-decoration:  underline;
+}
