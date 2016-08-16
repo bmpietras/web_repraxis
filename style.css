@@ -6,14 +6,26 @@ body  {
   margin: auto;
   height: 95%;
   width:  95%;
-  max-width: 600px;
 }
 .container {
   height: 100%;
+  max-width: 600px;
+  margin: auto;
   display: flex;
   justify-content:  space-around;
   align-items:  center;
   flex-flow:  row wrap;
+  background-color: #eee;
+}
+#practice {
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content:  flex-start;
+  align-items:  flex-start;
+  flex-flow: column nowrap;
+  background-color: #eee;
 }
 .flex_item {
   font-family:  monospace;
@@ -25,6 +37,9 @@ body  {
 .nav {
   width: 30%;
   margin: 50% 0 0 0;
+}
+.nav_back {
+  margin: 5% 0 0 5%;
 }
 .nav:hover  {
   text-decoration:  underline;
