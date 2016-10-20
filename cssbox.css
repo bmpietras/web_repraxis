@@ -26,7 +26,7 @@ span.cssbox_full img {
 }
 
 img.cssbox_thumb {
-  width: 215px;
+  flex: 1;
 }
 a.cssbox_close,
 a.cssbox_prev,
